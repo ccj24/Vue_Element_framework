@@ -1,0 +1,10 @@
+// 指定根目录和JavaScript服务提供的功能选项
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

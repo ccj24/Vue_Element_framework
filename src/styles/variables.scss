@@ -1,0 +1,56 @@
+// 侧边栏搭配-方案1
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; 
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+
+// 方案2
+$menuActiveText:#b76c2e;
+
+$menuBg:#006666;
+$menuHover:#2db3b3;
+
+$subMenuBg:#004242;
+$subMenuHover:#2db3b3;
+
+// 方案3
+$menuText:#eee;
+$menuActiveText:#7074fe;
+$menuActiveBorder:#3873D7;
+$subMenuActiveText:#eee; 
+
+$menuBg:#23345E;
+$menuHover:#284179;
+
+$subMenuBg:#0b1a3d;
+$subMenuHover:#284179;
+
+// 方案4
+$menuText:rgba(206,166,123,.7);
+$menuActiveText:#cea67b;
+$menuActiveBorder:#3873D7;
+$subMenuActiveText:#cea67b;
+
+$menuBg:#2a2c30;
+$menuHover:#2a2c30;
+
+$subMenuBg:#1b1d20;
+$subMenuHover:#2a2c30;
+
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
